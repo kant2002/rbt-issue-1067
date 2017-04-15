@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "strictNullChecks": true,
+    "alwaysStrict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": false,
+    "declaration": true,
+    "jsx": "react",
+    "sourceMap": false,
+    "module": "amd",
+    "target": "es5",
+    "outFile": "www/app.js",
+    "types": [ ],
+    "lib": [
+      "es5",
+      "dom",
+      "es2015.core",
+      "es2015.promise",
+      "es2015.symbol",
+      "es2015.iterable"
+    ]
+  },
+  "typeAcquisition": { "enable": true },
+  "compileOnSave": true,
+  "exclude": [
+    "node_modules",
+    "www"
+  ]
+}
